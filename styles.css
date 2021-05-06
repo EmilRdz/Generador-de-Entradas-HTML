@@ -1,0 +1,155 @@
+body{
+	font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif; 
+background-color: rgb(82, 82, 168);
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+h1{
+	margin: 0;
+	padding: 0
+}
+
+.subtitle{
+	font-size: 3vh;
+	color: rgb(82, 82, 168);
+	font-weight: lighter;
+	font-weight: 600;
+}
+
+header{
+	background-color: rgb(82, 82, 168);
+	color: aliceblue;
+	width: 100%;
+	height: 160px;
+	display: flex;
+	align-items: center;
+}
+
+.title{
+
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+.wrapper{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.main{
+	text-align: center;
+	min-width: 950px;
+	width: 75%;
+	color: rgb(82, 82, 168);
+	border-radius: 15px;
+
+	background-color: aliceblue;
+
+
+}
+
+
+
+iframe{
+	display: none;
+}
+
+.iframe-active{
+	display: block;
+	margin: auto;
+}
+
+
+
+
+.sidebar-info{
+	font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	width: 25%;
+	min-width: 320px;
+	color: aliceblue;
+
+	text-align: center;
+
+	background-color: rgb(82, 82, 168);
+}
+
+ .submit{
+ 	text-align: center;
+ 	border-radius: 3px;
+ 	display:inline-block;
+ 	border:0.1em solid #000000;
+ 	margin:0 0.3em 0.3em 0;
+ 	padding:0.35em 1.2em;
+ 	box-sizing: border-box;
+ 	text-decoration:none;
+ 	font-family: Arial;
+ 	font-size: 15px;
+ 	font-weight:300;
+ 	color:#FFFFFF;
+ 	transition: all 0.2s;
+ 	background-color: #30db5b;
+ }
+
+ .textarea{
+	 width: 90%;
+	 height: 400px;
+	 margin: auto;
+	 margin-bottom: 50px;
+ }
+
+ .names{
+	color: rgb(0, 0, 0); 
+	text-decoration: none; 
+	font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif; 
+	font-size: 1em; 
+	font-weight: 400; 
+	line-height: 1.5;
+}
+
+.enlaces{
+	color: rgb(0, 0, 0); 
+	text-decoration: none; 
+	font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif; 
+	font-size: 1em; 
+	font-weight: 400; 
+	line-height: 1.5;
+}
+
+.codigo{
+	border-radius: 15px;
+	padding: 35px;
+	color: rgb(255, 255, 255); 
+	text-decoration: none; 
+	font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif; 
+	font-size: 1em; 
+	font-weight: 400; 
+	line-height: 1.5;
+	background:  rgb(82, 82, 168);
+}
+
+.vinculo{
+	width: 400px;
+	margin: auto;
+}
+
+.white__space{
+	width: 100%;
+	height: 80px;
+}
+
+
+.space-btn{
+	height: 50px;
+}
+
+footer{
+	height: 160px;
+	color: aliceblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
